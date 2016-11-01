@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "20055886743",
+    "firebase_url": "https://rapido-2-trivia.firebaseio.com",
+    "project_id": "rapido-2-trivia",
+    "storage_bucket": "rapido-2-trivia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20055886743:android:440d581829e0fe66",
+        "android_client_info": {
+          "package_name": "juliana.com.tmp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20055886743-22unkm6s8ut6ao34b0c1mgsle83sbkmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1-iWZ9PoOA8UHUYD41TAKLVnG6ZQxZFg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

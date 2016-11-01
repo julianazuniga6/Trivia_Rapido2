@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_statistics"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="juliana.com.tmp.Control.StatisticsActivity"
+    android:background="@color/colorPrimaryLight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ESTADÍSTICAS"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:id="@+id/textest"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:gravity="center">
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"/>
+
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/question"
+                    android:id="@+id/imgQuest"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/ok"
+                    android:id="@+id/imgCheck"
+                    />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/bad"
+                    android:id="@+id/imgCross"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="15dp"
+                    android:layout_weight="1"/>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimaryDark">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="@string/question1"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:id="@+id/txtQ1"
+                    android:textColor="@color/colorText"/>
+                <TextView
+                    android:textColor="@color/colorText"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:id="@+id/p1b" />
+                <TextView
+                    android:textColor="@color/colorText"
+                    android:text="0"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:id="@+id/p1m" />
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"/>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimary">
+
+                <TextView
+                    android:textColor="@color/colorText"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="@string/question2"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:id="@+id/txtQ2" />
+
+                <TextView
+                    android:textColor="@color/colorText"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:id="@+id/p2b" />
+
+                <TextView
+                    android:textColor="@color/colorText"
+                    android:text="0"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:id="@+id/p2m" />
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"/>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimaryDark">
+
+                <TextView
+                    android:textColor="@color/colorText"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="@string/question3"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:id="@+id/txtQ3" />
+
+                <TextView
+                    android:textColor="@color/colorText"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:id="@+id/p3b" />
+
+                <TextView
+                    android:textColor="@color/colorText"
+                    android:text="0"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:id="@+id/p3m" />
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"/>
+
+            </TableRow>
+
+            <TableRow
+                android:background="@color/colorPrimary">
+
+                <TextView
+                    android:textColor="@color/colorText"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="@string/question4"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:id="@+id/txtQ4" />
+
+                <TextView
+                    android:textColor="@color/colorText"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:id="@+id/p4b" />
+
+                <TextView
+                    android:textColor="@color/colorText"
+                    android:text="0"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:id="@+id/p4m" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:gravity="center">
+                <Button
+                    android:text="¡Otra vez!"
+                    android:textColor="@color/colorText"
+                    android:background="@color/colorAccent"
+                    android:onClick="restartQuiz"
+                    android:id="@+id/butPlayAgain"
+                    />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
